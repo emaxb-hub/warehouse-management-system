@@ -8,16 +8,26 @@ Maven
 SQLite (local database)
 JavaFX/CSS UI resources
 Project Structure
+
 src/main/java/com/warehouseware/domain - core domain models
+
 src/main/java/com/warehouseware/application - business logic and services
+
 src/main/java/com/warehouseware/persistence - database and repository layer
+
 src/main/java/com/warehouseware/ui - application UI
+
 src/main/resources - styles and fonts
+
+
 Prerequisites
+
+
 JDK 17+ (or the version set in pom.xml)
 Maven 3.8+
 Build
 mvn clean package
+
 Run
 mvn exec:java -Dexec.mainClass="com.warehouseware.Main"
 
